@@ -1,0 +1,14 @@
+plant_type,category,min_light_lux,max_light_lux,min_humidity,max_humidity,min_temp_c,max_temp_c,min_moisture,max_moisture,optimal_ph,growth_days,water_frequency_days
+Tomato,Vegetable,800,1500,50,70,20,28,40,60,6.0,70,3
+Lettuce,Leafy Green,600,1200,60,80,15,22,50,70,6.5,45,2
+Basil,Herb,700,1300,50,70,18,26,40,60,6.5,60,3
+Rose,Flowering,1000,1800,40,60,18,25,35,55,6.5,90,4
+Succulent,Desert,1000,2000,30,50,20,30,20,40,7.0,120,7
+Orchid,Flowering,500,1000,50,80,18,24,30,50,5.5,365,5
+Cactus,Desert,1200,2500,20,40,22,35,15,35,7.5,180,10
+Pepper,Vegetable,900,1600,45,65,21,29,40,60,6.0,75,3
+Strawberry,Fruit,800,1400,50,70,15,25,45,65,6.0,60,2
+Cucumber,Vegetable,700,1500,55,75,20,28,45,65,6.5,55,2
+Spinach,Leafy Green,500,1000,65,85,10,20,55,75,6.5,40,2
+Mint,Herb,600,1200,60,75,15,25,45,65,6.5,50,2
+Lavender,Herb,1200,2000,30,50,18,27,25,45,7.0,90,5

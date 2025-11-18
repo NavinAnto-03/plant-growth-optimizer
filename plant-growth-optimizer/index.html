@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Growth Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌱 Plant Growth Optimizer</h1>
+            <p>Using AI to analyze sensor data and recommend plant care interventions</p>
+        </header>
+
+        <div class="dashboard">
+            <div class="sensor-data">
+                <h2>Current Sensor Readings</h2>
+                <div class="sensor-grid">
+                    <div class="sensor-card">
+                        <h3>Light Intensity</h3>
+                        <div class="value" id="light-value">--</div>
+                        <div class="unit">lux</div>
+                    </div>
+                    <div class="sensor-card">
+                        <h3>Humidity</h3>
+                        <div class="value" id="humidity-value">--</div>
+                        <div class="unit">%</div>
+                    </div>
+                    <div class="sensor-card">
+                        <h3>Temperature</h3>
+                        <div class="value" id="temp-value">--</div>
+                        <div class="unit">°C</div>
+                    </div>
+                    <div class="sensor-card">
+                        <h3>Soil Moisture</h3>
+                        <div class="value" id="moisture-value">--</div>
+                        <div class="unit">%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plant-selection">
+                <h3>Select Plant Type</h3>
+                <select id="plant-type">
+                    <option value="Tomato">Tomato</option>
+                    <option value="Lettuce">Lettuce</option>
+                    <option value="Basil">Basil</option>
+                    <option value="Rose">Rose</option>
+                    <option value="Succulent">Succulent</option>
+                    <option value="Orchid">Orchid</option>
+                </select>
+            </div>
+
+            <div class="file-upload-section">
+                <h3>Upload Plant Image or Document</h3>
+                <div class="upload-area" id="upload-area">
+                    <div class="upload-content">
+                        <span class="upload-icon">📁</span>
+                        <p>Drag & drop plant images or documents here</p>
+                        <p class="upload-subtext">Supports: JPG, PNG, PDF, TXT (Max 10MB)</p>
+                        <button class="btn secondary" id="browse-btn">Browse Files</button>
+                    </div>
+                    <input type="file" id="file-input" accept=".jpg,.jpeg,.png,.pdf,.txt" multiple style="display: none;">
+                </div>
+                <div id="file-preview" class="file-preview"></div>
+            </div>
+
+            <div class="controls">
+                <button id="simulate-btn" class="btn primary">Simulate Sensor Data</button>
+                <button id="analyze-btn" class="btn secondary">Analyze with AI</button>
+                <button id="analyze-image-btn" class="btn tertiary">Analyze Uploaded Files</button>
+            </div>
+
+            <div class="recommendations">
+                <h2>AI Recommendations</h2>
+                <div id="recommendations-list" class="recommendations-list">
+                    <p class="placeholder">Run analysis to get recommendations</p>
+                </div>
+            </div>
+
+            <div class="plant-status">
+                <h2>Plant Health Status</h2>
+                <div id="plant-status" class="status-indicator">
+                    <div class="status unknown">Status unknown</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="history">
+            <h2>Data History</h2>
+            <div class="chart-container">
+                <canvas id="data-chart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

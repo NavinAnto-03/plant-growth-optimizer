@@ -1,0 +1,16 @@
+intervention_id,timestamp,plant_type,light_before,humidity_before,temp_before,moisture_before,health_before,intervention_type,intervention_details,light_after,humidity_after,temp_after,moisture_after,health_after,effectiveness_score,response_time_hours
+1,2024-01-10 09:00:00,Tomato,450,42,19.5,25,poor,light_adjustment,increased_light_to_1000lux,1000,45,20.2,28,good,0.9,6
+2,2024-01-10 10:30:00,Lettuce,1400,45,27.8,35,poor,light_adjustment,decreased_light_to_900lux,900,48,26.2,38,good,0.8,4
+3,2024-01-11 11:00:00,Basil,350,55,23.2,42,fair,watering,added_200ml_water,380,57,23.0,52,good,0.7,3
+4,2024-01-11 14:00:00,Tomato,1800,48,29.5,38,poor,ventilation,increased_air_flow,1750,52,28.2,39,fair,0.6,2
+5,2024-01-12 08:30:00,Orchid,1200,52,25.8,35,poor,light_adjustment,moved_to_shade,600,55,24.5,37,good,0.9,5
+6,2024-01-12 12:00:00,Basil,1900,43,28.2,32,poor,humidity_adjustment,misted_leaves,1850,58,27.8,33,fair,0.5,1
+7,2024-01-13 09:30:00,Tomato,600,38,17.5,22,poor,heating,increased_temp_to_22C,650,40,22.0,25,fair,0.7,4
+8,2024-01-13 15:00:00,Lettuce,1600,58,26.5,48,fair,ventilation,opened_window,1550,62,25.8,49,good,0.6,3
+9,2024-01-14 10:00:00,Succulent,850,65,19.2,68,poor,watering,reduced_watering,800,62,19.5,45,good,0.8,8
+10,2024-01-14 13:00:00,Rose,2200,35,26.8,28,poor,humidity_adjustment,added_humidifier,2150,48,26.5,30,fair,0.5,6
+11,2024-01-15 11:00:00,Tomato,2000,40,31.2,30,poor,shading,added_shade_cloth,1200,42,28.5,32,good,0.9,3
+12,2024-01-16 14:00:00,Orchid,800,45,22.5,28,poor,humidity_adjustment,grouped_with_other_plants,750,62,22.2,30,good,0.8,5
+13,2024-01-17 09:30:00,Basil,500,60,20.5,40,fair,grow_light,added_supplemental_lighting,900,58,21.0,42,good,0.7,4
+14,2024-01-18 16:00:00,Lettuce,1800,50,24.8,55,fair,water_quality,used_filtered_water,1750,52,24.5,58,good,0.6,2
+15,2024-01-19 10:00:00,Succulent,3000,25,35.2,15,poor,relocation,moved_to_partial_sun,1800,30,28.5,20,good,0.9,6
