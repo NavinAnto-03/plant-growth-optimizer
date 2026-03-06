@@ -1,7 +1,6 @@
 <h1>🌱 Plant Growth Optimizer</h1>
 
 Plant Growth Optimizer is a machine learning–based project that helps optimize plant growth conditions using environmental and soil parameters. The system analyzes factors such as soil nutrients, temperature, humidity, and other conditions to recommend optimal values for improving plant health and crop yield.
-
 This project demonstrates how Artificial Intelligence and Data Science can assist agriculture by providing data-driven recommendations to farmers and researchers.
 
 <h2>📌 Features</h2>
