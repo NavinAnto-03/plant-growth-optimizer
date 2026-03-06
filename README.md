@@ -18,7 +18,7 @@ This project demonstrates how Artificial Intelligence and Data Science can assis
 • Pandas  
 • NumPy  
 • Scikit-learn  
-• Matplotlib / Seaborn  
+• Matplotlib   
 • Jupyter Notebook  
 
 <h2>📊 Dataset</h2>
