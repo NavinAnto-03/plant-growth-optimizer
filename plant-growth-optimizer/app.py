@@ -64,9 +64,9 @@ class FileAnalyzer:
         """Analyze plant image for basic information"""
         try:
             # Get file size first
-            image_file.seek(0, 2)  # Seek to end
+            image_file.seek(0, 2) 
             file_size = image_file.tell()
-            image_file.seek(0)  # Reset to beginning
+            image_file.seek(0) 
             
             image = Image.open(image_file)
             
